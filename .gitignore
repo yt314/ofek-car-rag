@@ -1,0 +1,21 @@
+# embeddings cache (large, rebuilt automatically)
+.cache/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# secrets: API keys never go into git
+.env
+*.key
+
+# results of local runs
+results/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
