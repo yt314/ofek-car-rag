@@ -138,10 +138,6 @@ $env:ANTHROPIC_API_KEY = "..."     # Windows
 export ANTHROPIC_API_KEY="..."     # macOS / Linux
 ```
 
-> 🔒 API keys never go into the code or into git (see [`.gitignore`](.gitignore)).
-
-Embeddings use `intfloat/multilingual-e5-small` by default. It runs locally, it's free, and it supports Hebrew. To use Voyage AI instead, set `EMBED_BACKEND=voyage` and `VOYAGE_API_KEY`.
-
 ## Project structure
 
 ```
